@@ -1,0 +1,3 @@
+execute if gamerule commandBlocksEnabled run gamerule commandBlocksEnabled false
+execute unless gamerule commandBlocksEnabled run gamerule commandBlocksEnabled true
+function game:gamerule_check

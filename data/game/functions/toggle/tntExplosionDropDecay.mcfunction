@@ -1,0 +1,3 @@
+execute if gamerule tntExplosionDropDecay run gamerule tntExplosionDropDecay false
+execute unless gamerule tntExplosionDropDecay run gamerule tntExplosionDropDecay true
+function game:gamerule_check

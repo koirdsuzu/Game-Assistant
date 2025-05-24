@@ -1,0 +1,3 @@
+execute if gamerule announceAdvancements run gamerule announceAdvancements false
+execute unless gamerule announceAdvancements run gamerule announceAdvancements true
+function game:gamerule_check

@@ -1,0 +1,3 @@
+execute if gamerule naturalRegeneration run gamerule naturalRegeneration false
+execute unless gamerule naturalRegeneration run gamerule naturalRegeneration true
+function game:gamerule_check

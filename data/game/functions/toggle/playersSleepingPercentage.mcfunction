@@ -1,0 +1,3 @@
+execute if gamerule playersSleepingPercentage run gamerule playersSleepingPercentage false
+execute unless gamerule playersSleepingPercentage run gamerule playersSleepingPercentage true
+function game:gamerule_check

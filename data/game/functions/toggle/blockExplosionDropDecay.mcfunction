@@ -1,0 +1,3 @@
+execute if gamerule blockExplosionDropDecay run gamerule blockExplosionDropDecay false
+execute unless gamerule blockExplosionDropDecay run gamerule blockExplosionDropDecay true
+function game:gamerule_check

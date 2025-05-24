@@ -1,0 +1,3 @@
+execute if gamerule spectatorsGenerateChunks run gamerule spectatorsGenerateChunks false
+execute unless gamerule spectatorsGenerateChunks run gamerule spectatorsGenerateChunks true
+function game:gamerule_check

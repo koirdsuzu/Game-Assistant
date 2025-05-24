@@ -1,0 +1,3 @@
+execute if gamerule snowAccumulationHeight run gamerule snowAccumulationHeight false
+execute unless gamerule snowAccumulationHeight run gamerule snowAccumulationHeight true
+function game:gamerule_check

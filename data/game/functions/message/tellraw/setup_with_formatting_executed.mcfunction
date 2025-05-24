@@ -1,0 +1,2 @@
+# _setup_with_formatting_executed.mcfunctionから実行
+tellraw @a [{"text":"\n[Game:Assistant]","color":"gray"},{"text":"初期化セットアップを実行しました。セットアップの詳細は","color":"white"},{"text":"\ndatapacks:Game-Assistant-ver","color":"yellow"},{"score":{"objective":"install_check","name":"GameAver"},"color":"yellow"},{"text":".","color":"yellow"},{"score":{"objective":"install_check","name":"GameAver2"},"color":"yellow"},{"text":"/game/functions/_setup_with_formatting_executed","color":"yellow"},{"text":"\nから確認してください。\n","color":"white"}]

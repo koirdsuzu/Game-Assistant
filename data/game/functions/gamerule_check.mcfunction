@@ -1,0 +1,1 @@
+function game:gamerule_check_1

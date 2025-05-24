@@ -1,0 +1,3 @@
+execute if gamerule maxCommandChainLength run gamerule maxCommandChainLength false
+execute unless gamerule maxCommandChainLength run gamerule maxCommandChainLength true
+function game:gamerule_check

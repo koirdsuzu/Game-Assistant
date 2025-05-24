@@ -1,0 +1,3 @@
+execute if gamerule disableElytraMovementCheck run gamerule disableElytraMovementCheck false
+execute unless gamerule disableElytraMovementCheck run gamerule disableElytraMovementCheck true
+function game:gamerule_check

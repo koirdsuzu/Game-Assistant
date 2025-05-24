@@ -1,0 +1,2 @@
+# _setup.mcfunctionから実行
+tellraw @a [{"text":"\n[Game:Assistant]","color":"gray"},{"text":"セットアップを実行しました。セットアップの詳細は","color":"white"},{"text":"\ndatapacks:Game-Assistant-ver","color":"yellow"},{"score":{"objective":"install_check","name":"GameAver"},"color":"yellow"},{"text":".","color":"yellow"},{"score":{"objective":"install_check","name":"GameAver2"},"color":"yellow"},{"text":"/game/functions/_setup","color":"yellow"},{"text":"\nから確認してください。\n","color":"white"}]

@@ -1,0 +1,3 @@
+execute if gamerule sendCommandFeedback run gamerule sendCommandFeedback false
+execute unless gamerule sendCommandFeedback run gamerule sendCommandFeedback true
+function game:gamerule_check
